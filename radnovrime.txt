@@ -1,0 +1,15 @@
+Napiši PHP skriptu koja, na temelju vrijednosti varijabli $dan i $sat, 
+ispisuje "otvoreno" ili "zatvoreno" u pregledniku.
+Koristi pomocne varijable:
+
+$dan = 3; // 1 = ponedjeljak, ..., 7 = nedjelja
+$sat = 14; // Sat u 24-satnom formatu (0–23)
+Umjesto funkcije date(), koristi ručno postavljene vrijednosti $dan 
+i $sat da bi mogao testirati.
+
+Radno vrijeme:
+Ponedjeljak - Petak: 9:00 – 17:00
+Subota : 10:00 – 20:00
+Nedjelja : 9:00 – 12:
+Koristi neki of if statement ( if, else if i else)
+Na kraju, ispiši rezultat u pregledniku (otvoreno ili zatvoreno ovisno o danu i vremenu.)
